@@ -15,9 +15,6 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="소스.cpp">
-      <Filter>소스 파일</Filter>
-    </ClCompile>
     <ClCompile Include="CLinear_actu.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
@@ -27,6 +24,30 @@
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="CLinear_actu.h">
+      <Filter>소스 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="AXA.h">
+      <Filter>소스 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="AXC.h">
+      <Filter>소스 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="AXD.h">
+      <Filter>소스 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="AXDev.h">
+      <Filter>소스 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="AXHD.h">
+      <Filter>소스 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="AXHS.h">
+      <Filter>소스 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="AXL.h">
+      <Filter>소스 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="AXM.h">
       <Filter>소스 파일</Filter>
     </ClInclude>
   </ItemGroup>

@@ -141,9 +141,16 @@
   <ItemGroup>
     <ClCompile Include="CLinear_actu.cpp" />
     <ClCompile Include="Linear_control.cpp" />
-    <ClCompile Include="소스.cpp" />
   </ItemGroup>
   <ItemGroup>
+    <ClInclude Include="AXA.h" />
+    <ClInclude Include="AXC.h" />
+    <ClInclude Include="AXD.h" />
+    <ClInclude Include="AXDev.h" />
+    <ClInclude Include="AXHD.h" />
+    <ClInclude Include="AXHS.h" />
+    <ClInclude Include="AXL.h" />
+    <ClInclude Include="AXM.h" />
     <ClInclude Include="CLinear_actu.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />

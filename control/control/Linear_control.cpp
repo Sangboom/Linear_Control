@@ -1,3 +1,4 @@
+
 #pragma once
 #define NOMINMAX
 #include <iostream>
@@ -20,7 +21,7 @@ int move_count = 0;
 
 CLinear_actu* LM_G;
 
-
+// LM_G = new CLinear_actu();
 
 void move_ac(int position)
 {
@@ -32,7 +33,7 @@ void move_linear(float first0, float first1, float second0, float second1) // 이
 	float angle = ((second1 - first1) / (second0 - first0)); // 두점을 잡고 그 기울기를 계산
 	float Sum_angle = 0;
 	Sum_angle += angle;
-	float total_angle;
+	float total_angle=0;
 	if (move_count == 3)
 	{
 		float total_angle = (Sum_angle + angle) / (move_count + 1);
@@ -72,9 +73,15 @@ void move_linear(float first0, float first1, float second0, float second1) // 이
 
 }
 
+void initialize() 
+{
+	LM_G = new CLinear_actu();
+}
+
 int main()
 {
 	// 일단 제어가 되는지 확인
+	printf("ddd");
 	move_linear(1, 2, 3, 4);
 
 

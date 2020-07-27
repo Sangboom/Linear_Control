@@ -1,6 +1,6 @@
 #include "CLinear_actu.h"
 
-char mot_file[] = "C://Users//admin//Desktop//pongdang//EzSoftware//ajin20190628.mot";
+char mot_file[] = "C://Users//admin//Desktop//QUW//ajin20190628.mot";
 int vel = 1500;
 int accel = 500;
 int max_position = 55;
