@@ -139,7 +139,12 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="..\..\..\..\..\..\OneDrive - Moe, Inc\Documents\3학년 여름\탁구로봇_공모전\I_am_good_at_pingpong\I_am_good_at_pingpong\CLinear_actu.cpp" />
+    <ClCompile Include="..\..\..\..\..\..\OneDrive - Moe, Inc\Documents\3학년 여름\탁구로봇_공모전\I_am_good_at_pingpong\I_am_good_at_pingpong\Linear_control.cpp" />
     <ClCompile Include="소스.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\..\..\..\..\..\OneDrive - Moe, Inc\Documents\3학년 여름\탁구로봇_공모전\I_am_good_at_pingpong\I_am_good_at_pingpong\CLinear_actu.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
